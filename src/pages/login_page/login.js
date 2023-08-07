@@ -2,11 +2,13 @@ import { useState } from "react";
 import "./login.css"
 import Axios from "axios";
 import { Link } from "react-router-dom";
+import { CookiesProvider, useCookies } from "react-cookie";
 
 
 
 const Login = () =>{
 
+    const [cookies, setCookie] = useCookies(["user"]);
 
     const [Email, setEmail] = useState('')
     const [Password, setPassword] = useState('')
@@ -33,6 +35,7 @@ const Login = () =>{
         Axios.post('/api/v1/farm/auth',Payload)
             .then( (response) => {
                 console.log(response.data)
+                setCookie("jwt", response.data, { path: "/" });
             })
             .catch( (err) => {
                 console.log(err.response.data.message);
@@ -103,8 +106,8 @@ return(
         </div>
         <p className="signin-form-forgot">Forgot password ?</p>
         <button className="signin-form-btn" onClick={ () => {
-            loginHandler()
-            // CheckIfLoggedIn()
+            // loginHandler()
+            CheckIfLoggedIn()
 
         } }>Sign in</button>
         <div className="or">
