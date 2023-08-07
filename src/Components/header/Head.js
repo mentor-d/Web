@@ -1,11 +1,11 @@
-import "../css/Head.css"
-// import Logo from "../Img/farmylogo.png";
-import myPic from "../Img/mypic.jpg"
-import store from "../Img/store.png"
-import market from "../Img/market.png"
-import logistics from "../Img/logistics.png"
-import cart from "../Img/cart.png"
-import notification from "../Img/notification.png"
+import "./Head.css";
+import myPic from "../../Img/mypic.jpg";
+import store from "../../Img/store.png";
+import market from "../../Img/market.png";
+import logistics from "../../Img/logistics.png";
+import cart from "../../Img/cart.png";
+import notification from "../../Img/notification.png";
+import { Link } from "react-router-dom";
 
 
 
@@ -13,7 +13,7 @@ const Head = () => {
 
 
 
-    const Logo = require("../Img/farmylogo.png")
+    const Logo = require("../../Img/farmylogo.png")
     
     return (
         <div className="header">
@@ -57,10 +57,15 @@ const Head = () => {
                     <div className="links-text">Notification</div>
                 </a>
 
-                <a className="header-links" href="">
+                {/* <a className="header-links" href="/login">
                     <img className="links-img" src={myPic} alt="pfl"/>
                     <div className="links-text">My Profile</div>
-                </a>
+                </a> */}
+
+                <Link to={'/signup'} >
+                    <img className="links-img" src={myPic} alt="pfl"/>
+                    <div className="links-text">My Profile</div>
+                </Link>
 
             </div>
         </div>

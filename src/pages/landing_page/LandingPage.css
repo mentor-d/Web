@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+span{
+    color: #FFA400;
+}
+.landpage{
+    height: 100vh;
+    width: 100%;
+    background-color: #EAFFE0;
+    box-sizing: border-box;
+}
+.header{    
+    height: 12vh;
+    width: 100%;
+    display: flex;
+    align-items: center ;
+    padding: 0 5%;
+    box-sizing: border-box;
+}
+.logo{
+    width: 7rem;
+    height: 7rem;
+}
+.head-links{
+    width: 60%;
+    padding: 0 0 0 30%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    margin:0 9%;
+}
+.links{
+    color: #0B3720;
+    font-size: .9rem;
+    font-weight: 700;
+    transition: .5s;
+    border-bottom:2px solid transparent;
+}
+.links:hover{
+    border-bottom:2px solid #0B3720 ;
+}
+.create{
+    background-color: #FFA400;
+    padding: .5rem 1rem;
+    color: white;
+    font-weight: 700;
+    font-size: .9rem;
+    border-radius: 10px;
+    transition: .5s;
+}
+.create:hover{
+    background-color: #ffa600d0;
+}
+.landpage-body{
+    width: 100%;
+    height: 88vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.landpage-body-text{
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 4rem;
+    text-align: center;
+    margin-bottom: 4%;
+    color: #0B3720;
+    text-shadow: 2px 1px 3px 1px rgba(0, 0, 0, 0.737);
+}
+.landpage-body-downloadLinks{
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+}
+.download-links{
+    background-color: #397846;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 40%;
+    height: 2.5rem;
+    border-radius: 20px;
+    padding: 0 3%;
+    box-sizing: border-box;
+    transition: .5s;
+}
+.download-links:hover{
+    background-color: #0b3720c2;
+}
+.download-links-icon{
+    width: 1rem;
+}
+.download-links-icon1{
+    width: 1.5rem;
+}
+.download-links-text{
+    font-size: .9rem;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+}
+.landpage-left-img{
+    width: 13rem;
+    position: absolute;
+    left: 0;
+    top: 30%;
+}
+
+.landpage-left-img2{
+    width: 13rem;
+    position: absolute;
+    right: 0;
+    top: 40%;
+}
+.choose{
+    width: 100%;
+    height: 90vh;
+    background-color: white;
+    padding: 5%;
+    box-sizing: border-box;
+}
+.choose-left{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.choose-right{
+    width: 50%;
+}
+.choose-left-img{
+    background-image: url("../../Img/lady.png");
+    width: 90%;
+    height: 90%;
+    background-position: center;
+    background-size: cover;
+}
+.register-box{
+    width: 100%;
+    height: 60vh;
+    background-color: #FFA400;
+    box-sizing: border-box;
+    padding: 5%;
+    display: flex;
+}
+.register-left{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.register-right{
+    width: 50%;
+    /* display: flex;
+    flex-direction: column; */
+    align-items: center;
+    padding:0 3% 0 5%;
+    box-sizing: border-box;
+}
+.money-img{
+    width: 480px;
+    height: 100%;
+}
+.register-right-mainText{
+    font-weight: 700;
+    font-size: 2.3rem;
+}
+.register-right-subText{
+    font-size: .8rem;
+    margin-top: 2%;
+    margin-bottom: 5%;      
+}
+.creat-acct{
+    width: 25%;
+    color: white;
+    background-color: #397846;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .3rem;
+    box-sizing: border-box;
+}

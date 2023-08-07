@@ -4,7 +4,7 @@
 }
 .header{
     width: 100%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     box-sizing: border-box;
     height: 17vh;
     padding:1% 2%;
@@ -46,7 +46,7 @@
 }
 .links-text{
     color: #333333;
-    font-size: .8rem;
+    font-size: .65rem;
     font-weight: 600;
     margin-top: 2%;
 }
@@ -56,6 +56,6 @@
     border-radius: 50%;
 }
 .link-icon{
-    width: 50%;
-    height: 50%;
+    width: 45%;
+    height: 40%;
 }
