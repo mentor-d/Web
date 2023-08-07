@@ -19,7 +19,7 @@ const Login = () =>{
             alert('Please all fields should be filed')
             return
         }
-
+        const config = { headers: {"Content-Type":"application/json"}}; 
         const Payload = {
             email: Email,
             password: Password
@@ -32,10 +32,12 @@ const Login = () =>{
         //     console.error(`Download error: ${error.message}`);
         //   }
 
-        Axios.post('/api/v1/farm/auth',Payload)
+        Axios.post('/api/v1/farm/auth',Payload, config)
             .then( (response) => {
-                console.log(response.data)
-                setCookie("jwt", response.data, { path: "/" });
+                document.cookie = response.jwt
+                // console.log(document.cookie)
+                console.log(response)
+                // setCookie("jwt", response.data, { path: "/" });
             })
             .catch( (err) => {
                 console.log(err.response.data.message);
@@ -106,8 +108,8 @@ return(
         </div>
         <p className="signin-form-forgot">Forgot password ?</p>
         <button className="signin-form-btn" onClick={ () => {
-            // loginHandler()
-            CheckIfLoggedIn()
+            loginHandler()
+            // CheckIfLoggedIn()
 
         } }>Sign in</button>
         <div className="or">
