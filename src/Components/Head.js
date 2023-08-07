@@ -1,5 +1,5 @@
 import "../css/Head.css"
-import logo from "../Img/farmylogo.png";
+// import Logo from "../Img/farmylogo.png";
 import myPic from "../Img/mypic.jpg"
 import store from "../Img/store.png"
 import market from "../Img/market.png"
@@ -10,50 +10,55 @@ import notification from "../Img/notification.png"
 
 
 const Head = () => {
+
+
+
+    const Logo = require("../Img/farmylogo.png")
+    
     return (
         <div className="header">
             <a className="header-left">
-                <img className="logo" scr={logo } alt="logo" />
+                <img className="logo" src={Logo} alt="logo" />
             </a>
 
             <div className="header-right">
                 <a className="header-links" href="">
                     <div className="links">
-     n                    <img className="link-icon" scr={store} alt="store" />
+                         <img className="link-icon" src={store} alt="store" />
                     </div>
                     <div className="links-text">Search Store</div>
                 </a>
 
                 <a className="header-links" href="">
                     <div className="links">
-                        <img className="link-icon" scr={market} alt="market" />
+                        <img className="link-icon" src={market} alt="market" />
                     </div>
                     <div className="links-text">Farmer's Market</div>
                 </a>
 
                 <a className="header-links" href="">
                     <div className="links">
-                        <img className="link-icon" scr={logistics} alt="logistics" />
+                        <img className="link-icon" src={logistics} alt="logistics" />
                     </div>
                     <div className="links-text">Book Logistics</div>
                 </a>
 
                 <a className="header-links" href="">
                     <div className="links">
-                        <img className="link-icon" scr={cart} alt="cart" />
+                        <img className="link-icon" src={cart} alt="cart" />
                     </div>
                     <div className="links-text">My Cart</div>
                 </a>
 
                 <a className="header-links" href="">
                     <div className="links">
-                        <img className="link-icon" scr={notification} alt="notification" />
+                        <img className="link-icon" src={notification} alt="notification" />
                     </div>
                     <div className="links-text">Notification</div>
                 </a>
 
                 <a className="header-links" href="">
-                    <img className="links-img" scr={myPic} alt="pfl"/>
+                    <img className="links-img" src={myPic} alt="pfl"/>
                     <div className="links-text">My Profile</div>
                 </a>
 
