@@ -1,10 +1,12 @@
 import "./LandingPage.css";
+import "../../css/main.css"
 import Logo from "../../Img/farmylogo.png";
 import Iphone from "../../Img/iphone.png";
 import Pepper from "../../Img/pepper.png";
 import Playstore from "../../Img/playstore.png";
 import Money from "../../Img/money.png";
 import Head from "../../components/header/Head";
+import { Link } from "react-router-dom";
 
 
 const LandingPage = () => {
@@ -18,15 +20,15 @@ const LandingPage = () => {
                 <div className="landpage-body">
                     <div className="landpage-body-text">Buy From <p> <span>Favourite</span> Store.</p> </div>
                     <div className="landpage-body-downloadLinks">
-                        <a className="download-links" href="">
+                        <Link className="download-links" to={''} >
                             <img className="download-links-icon1" src={Playstore} alt="icon" />
                             <div className="download-links-text" >Get on Andriod</div>
-                        </a>
+                        </Link>
 
-                        <a className="download-links" href="">
+                        <Link className="download-links" to={''}>
                             <img className="download-links-icon" src={Iphone} alt="icon" />
                             <div className="download-links-text" > Get on iPhone</div>
-                        </a>
+                        </Link>
                     </div>
                 </div>
 

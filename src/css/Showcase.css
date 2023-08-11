@@ -6,47 +6,33 @@ span{
     color: #FF9900;
 }
 .showcase-display{
-    width: 60%;
-    height: 75vh;
-    border: 1px solid red;
-    display: flex;
-}
-
-.showcase-left-box{
     padding: 3% 3% 17% 3%;
     box-sizing: border-box;
     width: 50%;
-    height: 75vh;
+    height: 100%;
     background-color: #397846;
-    border-radius: 8px 0px 0px 8px;
+    border-radius: 5px 0px 0px 5px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
 }
 .showcase-box-img{
-    width: 15rem;
-    height: 10rem;
+    width: 20rem;
+    height: 15rem;
 }
 .showcase-box-text{
     color: white;
-    font-size: 2rem;
-    line-height: 2rem;
+    font-size: 2.5rem;
+    line-height: 3rem;
     font-weight: 700;
     width: 85%;
 }
 .showcase-box-text-sub{
     color: white;
-    font-size: .7rem;
+    font-size: .9rem;
     width: 85%;
     margin-top: 3%;
 
 }
-.showcase-right-box{
-    border-radius: 0px 8px 8px 0px;
-    background-color: white;
-    width: 50%;
-    height: 100%;
-    padding: 3%;
-    box-sizing: border-box;
-}
+

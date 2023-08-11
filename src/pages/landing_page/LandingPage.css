@@ -6,13 +6,13 @@ a{
     text-decoration: none;
 }
 span{
-    color: #FFA400;
+    color: var(--secondaryColor);
 }
 .landpage{
     height: 100vh;
     width: 100%;
-    background-color: #EAFFE0;
     box-sizing: border-box;
+    background-color: var(--lightPrimaryColor);
 }
 .header{    
     height: 12vh;
@@ -35,7 +35,7 @@ span{
     margin:0 9%;
 }
 .links{
-    color: #0B3720;
+    color: var(--greenTextColor);
     font-size: .9rem;
     font-weight: 700;
     transition: .5s;
@@ -43,6 +43,10 @@ span{
 }
 .links:hover{
     border-bottom:2px solid #0B3720 ;
+    transform: translateY(-1px)
+}
+.links:active{
+    transform: translateY(1px);
 }
 .create{
     background-color: #FFA400;
@@ -66,7 +70,7 @@ span{
     position: relative;
 }
 .landpage-body-text{
-    font-size: 4rem;
+    font-size: 5rem;
     font-weight: 700;
     line-height: 4rem;
     text-align: center;
@@ -111,6 +115,7 @@ span{
     position: absolute;
     left: 0;
     top: 30%;
+    height: 20rem;
 }
 
 .landpage-left-img2{
@@ -118,6 +123,7 @@ span{
     position: absolute;
     right: 0;
     top: 40%;
+    height: 20rem;
 }
 .choose{
     width: 100%;

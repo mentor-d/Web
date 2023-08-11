@@ -17,6 +17,9 @@ import SignUpPage from "./pages/signup_page/signup";
 import Signin from "./components/Signin";
 import Login from "./pages/login_page/login";
 import { CookiesProvider, useCookies } from "react-cookie";
+import ForgotPassword from "./pages/ForgotPassword_page/ForgotPassword";
+import EnterOtp from "./pages/enterOtp_page/EnterOtp"
+import ChangePassword from "./pages/changePassword_page/ChangePassword"
 
 
 const App = () => {
@@ -29,6 +32,9 @@ const App = () => {
         <Route path="/" element={<LandingPage/>} />
         <Route path="/signup" element={<SignUpPage/>} />
         <Route path="/login" element={<Login/>}/>
+        <Route path="/Forgot_Password" element={<ForgotPassword/>}/>
+        <Route path="/EnterOtp" element={<EnterOtp/>}/>
+        <Route path="/ChangePassword" element={<ChangePassword/>}/>
       </Routes>
       </CookiesProvider>
   );
