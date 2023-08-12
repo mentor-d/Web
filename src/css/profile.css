@@ -1,0 +1,85 @@
+.header {
+    height: 8vh;
+    width: 100%;
+    background-color: grey;
+  }
+  .container {
+    /* max-width: 1500px; */
+    width: 100%;
+    height: 100vh;
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+    overflow: auto;
+  }
+  .body {
+    display: flex;
+    height: 92vh;
+    width: 100%;
+  }
+  .profile {
+    width: 25%;
+    /* height: 100%; */
+    /* border: 1px solid red; */
+    margin-right: 1rem;
+    background-color: rgba(0, 0, 0, 0.863);
+  }
+  .profile-photo {
+    display: flex;
+    flex-direction: column;
+    height: 25vh;
+    width: 100%;
+    /* border: 1px solid red; */
+    align-items: center;
+    color: white;
+    padding-top: 1.5rem;
+    /* gap: 1rem; */
+  }
+  .profile-photo-img {
+    height: 7rem;
+    width: 7rem;
+    border-radius: 50%;
+  }
+  .profile-photo-img img {
+    border-radius: 50%;
+  }
+  .profile-photo h3 {
+    color: white;
+    margin-top: 1rem;
+  }
+  .profile-options {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    /* gap: 0.5rem; */
+    width: 100%;
+    height: 67vh;
+    /* height: 100%; */
+    /* border: 1px solid white; */
+    padding: 1rem;
+    font-weight: 600;
+  }
+  
+  .profile-options-items {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 2rem;
+    width: 100%;
+    /* border: 1px solid red; */
+    margin-bottom: 0.6rem;
+  }
+  .bx {
+    color: grey;
+    font-size: 2rem;
+  }
+  .profile-options div:nth-child(11) {
+    bottom: 0;
+    position: absolute;
+    display: flex;
+    justify-content: left;
+  }
+  .profile-options div:nth-child(11) .bx {
+    margin-right: 1rem;
+  }
+  

@@ -36,10 +36,10 @@ const SignUpPage = () => {
 
     const SignUpHandler = () => {
 
-        if ( Email == '' || FarmName == '' || 
-             UserName == '' || PhoneNumber == '' || 
-             Password == '' || ConfirmPassword == '' ||
-             City == '' || FarmAddress == ''  ) {
+        if ( Email === '' || FarmName === '' || 
+             UserName === '' || PhoneNumber === '' || 
+             Password === '' || ConfirmPassword === '' ||
+             City === '' || FarmAddress === ''  ) {
             alert('Please all fields should be filed')
             return 
         }

@@ -1,6 +1,6 @@
 import "./ForgotPassword.css"
 import "../../css/main.css"
-import Showcase from "../../components/Showcase";
+import Showcase from "../../Components/Showcase";
 import Logo from "../../Img/farmylogo.png"
 
 

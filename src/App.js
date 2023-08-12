@@ -14,12 +14,13 @@ import {
 import LoginPage from "./pages/signup_page/signup";
 import Axios from "axios";
 import SignUpPage from "./pages/signup_page/signup";
-import Signin from "./components/Signin";
 import Login from "./pages/login_page/login";
 import { CookiesProvider, useCookies } from "react-cookie";
 import ForgotPassword from "./pages/ForgotPassword_page/ForgotPassword";
 import EnterOtp from "./pages/enterOtp_page/EnterOtp"
 import ChangePassword from "./pages/changePassword_page/ChangePassword"
+import Farmproduce from "./Components/farmProduce";
+import Profile from "./Components/profile";
 
 
 const App = () => {
@@ -35,6 +36,8 @@ const App = () => {
         <Route path="/Forgot_Password" element={<ForgotPassword/>}/>
         <Route path="/EnterOtp" element={<EnterOtp/>}/>
         <Route path="/ChangePassword" element={<ChangePassword/>}/>
+        <Route path="/farmProduce" element={<Farmproduce/>}/>
+        <Route path="/profile" element={<Profile/>}/>
       </Routes>
       </CookiesProvider>
   );

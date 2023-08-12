@@ -12,6 +12,7 @@
     --hoverScondaryColor: #e0672088;
     --greenTextColor:#0B3720;
     --GreyTextColor: gray;
+    --whiteTextColor:white;
   }
   .container{
     width: 100%;

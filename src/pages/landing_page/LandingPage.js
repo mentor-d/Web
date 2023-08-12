@@ -5,7 +5,7 @@ import Iphone from "../../Img/iphone.png";
 import Pepper from "../../Img/pepper.png";
 import Playstore from "../../Img/playstore.png";
 import Money from "../../Img/money.png";
-import Head from "../../components/header/Head";
+import Head from "../../Components/header/Head";
 import { Link } from "react-router-dom";
 
 
