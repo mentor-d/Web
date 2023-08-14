@@ -13,52 +13,50 @@ const Profile = () => {
           <h3>Afolabi Damilare</h3>
           <p>@damilare</p>
         </div>
-        <div className="profile-options">
-          <div className="profile-options-items">
+        <div className="profile-items">
             <p>Account</p>
             <i className="bx bx-chevron-right"></i>
           </div>
-          <div className="profile-options-items">
+          <div className="profile-items">
             <p>Orders</p>
             <i className="bx bx-chevron-right"></i>
           </div>
-          <div className="profile-options-items">
+          <div className="profile-items">
             <p>Wallet</p>
             <i className="bx bx-chevron-right"></i>
           </div>
-          <div className="profile-options-items">
+          <div className="profile-items">
             <p>Email Settings</p>
             <i className="bx bx-chevron-right"></i>
           </div>
-          <div className="profile-options-items">
+          <div className="profile-items">
             <p>Cart</p>
             <i className="bx bx-chevron-right"></i>
           </div>
-          <div className="profile-options-items">
+          <div className="profile-items">
             <p>Security</p>
             <i className="bx bx-chevron-right"></i>
           </div>
-          <div className="profile-options-items">
+          <div className="profile-items">
             <p>What's New</p>
             <i className="bx bx-chevron-right"></i>
           </div>
-          <div className="profile-options-items">
+          <div className="profile-items">
             <p>Faq</p>
             <i className="bx bx-chevron-right"></i>
           </div>
-          <div className="profile-options-items">
+          <div className="profile-items">
             <p>Terms of Servive</p>
             <i className="bx bx-chevron-right"></i>
           </div>
-          <div className="profile-options-items">
+          <div className="profile-items">
             <p>Privacy Policy</p>
             <i className="bx bx-chevron-right"></i>
           </div>
-          <div className="profile-options-items">
+          <div className="profile-items last-item">
             <i className="bx bx-log-out"></i>
             <p>Logout</p>
           </div>
-        </div>
       </div>
     </>
   );

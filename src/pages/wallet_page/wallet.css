@@ -1,0 +1,11 @@
+.wallet-body{
+    display: flex;
+    width: 100%;
+
+}
+.wallet-body-container{
+    width: 75%;
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+}

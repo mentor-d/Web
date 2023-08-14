@@ -21,7 +21,11 @@ import EnterOtp from "./pages/enterOtp_page/EnterOtp"
 import ChangePassword from "./pages/changePassword_page/ChangePassword"
 import Farmproduce from "./Components/farmProduce";
 import Profile from "./Components/profile";
-
+import farmProductNav from "./Components/farmProductNav";
+import Cart from "./pages/cart_page/cart";
+import Account from "./pages/account_page/account"; 
+import Email from "./pages/email_settings/emailSettings"
+import Security from "./pages/change_password_page/change_password";
 
 const App = () => {
 
@@ -38,6 +42,11 @@ const App = () => {
         <Route path="/ChangePassword" element={<ChangePassword/>}/>
         <Route path="/farmProduce" element={<Farmproduce/>}/>
         <Route path="/profile" element={<Profile/>}/>
+        <Route path="/farmProductNav" element={<farmProductNav/>}/>
+        <Route path="/Cart" element={<Cart/>}/>
+        <Route path="/Account" element={<Account/>}/>
+        <Route path="/email" element={<Email/>}/>
+        <Route path="/security" element={<Security/>}/>
       </Routes>
       </CookiesProvider>
   );
