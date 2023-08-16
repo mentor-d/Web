@@ -26,6 +26,9 @@ import Cart from "./pages/cart_page/cart";
 import Account from "./pages/account_page/account"; 
 import Email from "./pages/email_settings/emailSettings"
 import Security from "./pages/change_password_page/change_password";
+import Wallet from "./pages/wallet_page/wallet"
+import Faq from "./pages/faq_page/faq";
+import Referral from "./pages/referral_page/referral";
 
 const App = () => {
 
@@ -47,6 +50,9 @@ const App = () => {
         <Route path="/Account" element={<Account/>}/>
         <Route path="/email" element={<Email/>}/>
         <Route path="/security" element={<Security/>}/>
+        <Route path="/Wallet" element={<Wallet/>}/>
+        <Route path="/Faq" element={<Faq/>}/> 
+        <Route path="/Referral" element={<Referral/>}/>
       </Routes>
       </CookiesProvider>
   );
