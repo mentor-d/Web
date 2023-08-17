@@ -57,8 +57,8 @@ const Login = () =>{
                 // setCookie("jwt", response.data, { path: "/" });
             })
             .catch( (err) => {
-                console.log(err.response.data.message);
-                alert(err.response.data.message)
+                console.log(err);
+                alert(err.response)
             })
     }
 

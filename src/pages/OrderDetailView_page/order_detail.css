@@ -1,0 +1,78 @@
+.order-detail-body{
+    display: flex;
+    
+}
+.order-detail-container{
+    display: flex;
+    width:75%;
+    height: 90vh;
+}
+.order-detail-container-reference{
+    border:1px solid var(--color-tertiary-shade3) ;
+    width: 60%;
+    padding-top: 1rem;
+}
+.order-detail-container-reference-header{
+    display: flex;
+    justify-content: space-between;
+}
+.order-detail-container-reference-header div{
+    font-weight: 600;
+    border-radius:3px ;
+    width:6rem;
+    text-align: center;
+    padding: .3rem .5rem;
+    background-color: rgb(181, 157, 181);
+}
+.order-detail-container-reference-items{
+    height: 25rem;
+    padding-left:1rem  ;
+    padding-right:.5rem ;
+    padding-top: 1rem;
+    border: 1px solid red;
+}
+.order-detail-container-reference-items-box{
+    height: 17rem;
+    border-bottom: 1px solid var(--color-tertiary-shade3);
+    overflow-y: auto;
+}
+.order-detail-container-reference-items-box-description{
+    display: flex;
+    /* justify-content: ; */
+    align-items: center;
+    height: 4rem;
+    /* border: 1px solid red; */
+    margin:.5rem 0;
+    position: relative;
+
+}
+.order-detail-container-reference-items-box-description-img{
+    height: 4rem;
+    width: 5.5rem;
+    border: 1px solid red;
+    background-image: url(../../Img/pexels-rajesh-tp-1633578\ 1.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+}
+.order-detail-container-reference-items-box-description-img img{
+    width: 100%;
+    object-fit: contain;
+    
+}
+.order-detail-container-reference-items-box-description-name{
+    margin-left: 1.5rem;
+    align-self: first baseline;
+}
+.order-detail-container-reference-items-box-description-price{
+    position: absolute;
+    right: 12rem;
+    align-self: first baseline;
+}
+
+.order-detail-container-reference-items-box-description-total{
+    position: absolute;
+    right: 0rem;
+    align-self: first baseline;
+}
+                       

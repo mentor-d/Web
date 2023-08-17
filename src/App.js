@@ -29,7 +29,7 @@ import Security from "./pages/change_password_page/change_password";
 import Wallet from "./pages/wallet_page/wallet"
 import Faq from "./pages/faq_page/faq";
 import Referral from "./pages/referral_page/referral";
-
+import Order from "./pages/OrderDetailView_page/orderDetail";
 const App = () => {
 
   Axios.defaults.baseURL = 'http://localhost:3500'
@@ -53,6 +53,7 @@ const App = () => {
         <Route path="/Wallet" element={<Wallet/>}/>
         <Route path="/Faq" element={<Faq/>}/> 
         <Route path="/Referral" element={<Referral/>}/>
+        <Route path="/OrderDetail" element={<Order/>}/>
       </Routes>
       </CookiesProvider>
   );
