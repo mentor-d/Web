@@ -30,6 +30,8 @@ import Wallet from "./pages/wallet_page/wallet"
 import Faq from "./pages/faq_page/faq";
 import Referral from "./pages/referral_page/referral";
 import Order from "./pages/OrderDetailView_page/orderDetail";
+import OrderListView from "./pages/orderListView_page/order_list_view";
+import SearchStore from "./pages/search_stores/search_stores";
 const App = () => {
 
   Axios.defaults.baseURL = 'http://localhost:3500'
@@ -54,6 +56,8 @@ const App = () => {
         <Route path="/Faq" element={<Faq/>}/> 
         <Route path="/Referral" element={<Referral/>}/>
         <Route path="/OrderDetail" element={<Order/>}/>
+        <Route path="/OrderListView" element={<OrderListView/>}/>
+        <Route path="/SearchStore" element={<SearchStore/>}/>
       </Routes>
       </CookiesProvider>
   );
