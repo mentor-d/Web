@@ -20,6 +20,7 @@ import { CookiesProvider, useCookies } from "react-cookie";
 import ForgotPassword from "./pages/ForgotPassword_page/ForgotPassword";
 import EnterOtp from "./pages/enterOtp_page/EnterOtp"
 import ChangePassword from "./pages/changePassword_page/ChangePassword"
+import Footer from "./components/Footer/footer"
 
 
 const App = () => {
@@ -35,6 +36,7 @@ const App = () => {
         <Route path="/Forgot_Password" element={<ForgotPassword/>}/>
         <Route path="/EnterOtp" element={<EnterOtp/>}/>
         <Route path="/ChangePassword" element={<ChangePassword/>}/>
+        <Route path="/Footer" element={<Footer/>}/>
       </Routes>
       </CookiesProvider>
   );
