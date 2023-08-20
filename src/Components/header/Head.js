@@ -17,7 +17,7 @@ const Head = () => {
     
     return (
         <div className="header">
-            <Link className="header-left" to={''}>
+            <Link className="header-left" to={'/'}>
                 <img className="logo" src={Logo} alt="logo" />
             </Link>
 
@@ -43,7 +43,7 @@ const Head = () => {
                     <div className="links-text">Book Logistics</div>
                 </Link>
 
-                <Link className="header-links" to={''} >
+                <Link className="header-links" to={'/Cart'} >
                     <div className="links">
                         <img className="link-icon" src={cart} alt="cart" />
                     </div>

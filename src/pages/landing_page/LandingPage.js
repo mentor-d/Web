@@ -4,10 +4,15 @@ import Logo from "../../Img/farmylogo.png";
 import Iphone from "../../Img/iphone.png";
 import Pepper from "../../Img/pepper.png";
 import Playstore from "../../Img/playstore.png";
+<<<<<<< HEAD
 import lorry from "../../Img/lorry.png"
 import farmland from "../../Img/farmland.png"
 import Head from "../../components/header/Head";
 import Footer from "../../components/Footer/footer"
+=======
+import Money from "../../Img/money.png";
+import Head from "../../Components/header/Head";
+>>>>>>> 6e940160ef90c6a5160f9ac52de4b8acd6725e88
 import { Link } from "react-router-dom";
 
 

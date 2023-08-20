@@ -14,15 +14,25 @@ import {
 import LoginPage from "./pages/signup_page/signup";
 import Axios from "axios";
 import SignUpPage from "./pages/signup_page/signup";
-import Signin from "./components/Signin";
 import Login from "./pages/login_page/login";
 import { CookiesProvider, useCookies } from "react-cookie";
 import ForgotPassword from "./pages/ForgotPassword_page/ForgotPassword";
 import EnterOtp from "./pages/enterOtp_page/EnterOtp"
 import ChangePassword from "./pages/changePassword_page/ChangePassword"
 import Footer from "./components/Footer/footer"
-
-
+import Farmproduce from "./Components/farmProduce";
+import Profile from "./Components/profile";
+import farmProductNav from "./Components/farmProductNav";
+import Cart from "./pages/cart_page/cart";
+import Account from "./pages/account_page/account"; 
+import Email from "./pages/email_settings/emailSettings"
+import Security from "./pages/change_password_page/change_password";
+import Wallet from "./pages/wallet_page/wallet"
+import Faq from "./pages/faq_page/faq";
+import Referral from "./pages/referral_page/referral";
+import Order from "./pages/OrderDetailView_page/orderDetail";
+import OrderListView from "./pages/orderListView_page/order_list_view";
+import SearchStore from "./pages/search_stores/search_stores";
 const App = () => {
 
   Axios.defaults.baseURL = 'http://localhost:3500'
@@ -36,7 +46,23 @@ const App = () => {
         <Route path="/Forgot_Password" element={<ForgotPassword/>}/>
         <Route path="/EnterOtp" element={<EnterOtp/>}/>
         <Route path="/ChangePassword" element={<ChangePassword/>}/>
+<<<<<<< HEAD
         <Route path="/Footer" element={<Footer/>}/>
+=======
+        <Route path="/farmProduce" element={<Farmproduce/>}/>
+        <Route path="/profile" element={<Profile/>}/>
+        <Route path="/farmProductNav" element={<farmProductNav/>}/>
+        <Route path="/Cart" element={<Cart/>}/>
+        <Route path="/Account" element={<Account/>}/>
+        <Route path="/email" element={<Email/>}/>
+        <Route path="/security" element={<Security/>}/>
+        <Route path="/Wallet" element={<Wallet/>}/>
+        <Route path="/Faq" element={<Faq/>}/> 
+        <Route path="/Referral" element={<Referral/>}/>
+        <Route path="/OrderDetail" element={<Order/>}/>
+        <Route path="/OrderListView" element={<OrderListView/>}/>
+        <Route path="/SearchStore" element={<SearchStore/>}/>
+>>>>>>> 6e940160ef90c6a5160f9ac52de4b8acd6725e88
       </Routes>
       </CookiesProvider>
   );

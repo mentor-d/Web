@@ -1,0 +1,60 @@
+.account-body{
+    display: flex;
+    width: 100%;
+    background-color: var(--whiteTextColor);
+    
+}
+.account-body-form {
+    height: 100%;
+    width: 75%;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 3%;
+  
+  }
+.account-body-form-edit-img {
+    margin: 1rem auto;
+    position: relative;
+    height: 8rem;
+    width: 8rem;
+    border-radius: 50%;
+    /* border: 1px solid   red; */
+  }
+  .account-body-form-edit-img img {
+    border-radius: 50%;
+  }
+  .account-body-form-edit-img a {
+    position: absolute;
+    bottom: 0;
+    right: 1rem;
+    z-index: 20;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 50%;
+    background-color:var( --color-primary-shade2);
+  }
+  .account-body-form-edit-img a .bx {
+    color: white;
+    font-size: 1.3rem;
+  }
+  .account-body-form-input {
+    width: 100%;
+    margin-top: 1rem;
+  }
+  .account-body-form-input input {
+    width: 100%;
+    padding: 0.5rem;
+    height: 3rem;
+    border-radius: 10px;
+    border: 1px solid grey;
+    margin-top: 0.5rem;
+    font-weight: 600;
+    font-size: 18px;
+  }
+  
+  

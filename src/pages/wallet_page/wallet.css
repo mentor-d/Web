@@ -1,0 +1,152 @@
+.wallet-body{
+    display: flex;
+    width: 100%;
+    /* border: 1px solid red; */
+
+}
+.wallet-body-container{
+    width: 75%;
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+}
+
+  .wallet-body-container-box {
+    background-color: rgba(128, 128, 128, 0.562);
+    height: 40rem;
+    width: 42rem;
+    /* border: 1px solid red; */
+    padding: 2rem 5%;
+  }
+  .wallet-body-container-box-heading {
+    text-align: center;
+    /* margin-top: 2rem; */
+  }
+  .wallet-body-container-box-balance {
+    margin-top: 2rem;
+  }
+  .wallet-body-container-box-ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    height: 5rem;
+    border-radius: 5px;
+    width: 85%;
+    background-color: rgb(34, 128, 34);
+    margin-top: 1rem;
+    padding: 0.7rem 4%;
+  }
+  .wallet-body-container-box-ul-li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.3rem;
+  }
+  .wallet-body-container-box-ul-li p {
+    font-weight: 600;
+  }
+  .wallet-body-container-box-options {
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    font-weight: 600;
+    margin-top: 2.5rem;
+  }
+  .wallet-body-container-box-options-content {
+    display: flex;
+    align-items: center;
+  }
+  .wallet-body-container-box-options-content a {
+    display: inline-flex;
+    height: 2.5rem;
+    width: 2.5rem;
+    background-color: orange;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+  }
+  .wallet-body-container-box-options-content a .bx {
+    color: white;
+    font-size: 1.5rem;
+  }
+  .wallet-body-container-box-options div:nth-child(2) a {
+    background-color: rgb(25, 25, 110);
+  }
+  .wallet-body-container-box-options div:nth-child(3) a {
+    background-color: black;
+  }
+  
+  .wallet-body-container-box-options2 {
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    font-weight: 600;
+    margin-top: 3rem;
+    height: 3rem;
+    position: relative;
+  }
+  .wallet-body-container-box-options2-content {
+    display: flex;
+    align-items: center;
+    position: absolute;
+  }
+  .wallet-body-container-box-options2-content:nth-child(2) {
+    right: 10.7rem;
+  }
+  .wallet-body-container-box-options2-content:nth-child(3) {
+    right: 0.8rem;
+  }
+  .wallet-body-container-box-options2-content a {
+    display: inline-flex;
+    height: 2.5rem;
+    width: 2.5rem;
+    background-color: rgb(23, 92, 23);
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+  }
+  .wallet-body-container-box-options2 div:nth-child(1) a {
+    border-radius: none;
+    background-color: transparent;
+  }
+  .wallet-body-container-box-options2 div:nth-child(1) a .bx {
+    color: green;
+    font-size: 2.5rem;
+  }
+  .wallet-body-container-box-options2-content a .bx {
+    color: white;
+    font-size: 1.5rem;
+  }
+  .wallet-body-container-box-options2 div:nth-child(2) a {
+    background-color: rgb(71, 18, 18);
+  }
+  .wallet-body-container-box-options2 div:nth-child(3) a {
+    background-color: transparent;
+    border-radius: 0;
+  }
+  .wallet-body-container-box-options2 div:nth-child(3) a .bx {
+    font-size: 2.5rem;
+    color: red;
+  }
+  .wallet-body-container-box-text {
+    margin-top: 2.5rem;
+  }
+  .wallet-body-container-box-text2 {
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    margin-top: 0.7rem;
+    color: white;
+    height: 7rem;
+    width: 95%;
+    border-radius: 5px;
+    background-color: rgb(34, 128, 34);
+  }
+  .wallet-body-container-box-text2 h1 {
+    width: 40%;
+    font-size: 2rem;
+  }
+  

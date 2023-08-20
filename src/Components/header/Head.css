@@ -7,8 +7,12 @@
     box-sizing: border-box;
     height: 12vh;
     padding:1% 3%;
+    height: 10vh;
+    padding:1% 2%;
     display: flex;
     justify-content: space-between;
+    background-color: var(--whiteTextColor);
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 .header-left{
     display: flex;
