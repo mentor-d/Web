@@ -11,11 +11,7 @@ import Head from "../../components/header/Head";
 import Footer from "../../components/Footer/footer"
 =======
 import Money from "../../Img/money.png";
-<<<<<<< HEAD
 import Head from "../../components/header/Head";
-=======
-import Head from "../../Components/header/Head";
->>>>>>> 6e940160ef90c6a5160f9ac52de4b8acd6725e88
 >>>>>>> f4e527b030ad7089a1abbba8e9abdf7eecd178ca
 import { Link } from "react-router-dom";
 
