@@ -1,6 +1,6 @@
 import "../../css/main.css"
 import "./search_stores.css"
-import Head from "../../Components/header/Head"
+import Head from "../../components/header/Head"
 import StoreImg from "../../Img/Rectangle 375.png"
 
 const SearchStore = () =>{

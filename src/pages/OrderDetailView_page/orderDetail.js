@@ -1,5 +1,5 @@
-import Head from "../../Components/header/Head";
-import Profile from "../../Components/profile";
+import Head from "../../components/header/Head";
+import Profile from "../../components/profile";
 import "../../css/main.css";
 import "./order_detail.css";
 // import productImage from "../../Img/pexels-rajesh-tp-1633578 1.png"

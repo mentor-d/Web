@@ -1,7 +1,7 @@
 import "../../css/main.css"
 import "./order_list_view.css"
-import Head from "../../Components/header/Head"
-import Profile from "../../Components/profile"
+import Head from "../../components/header/Head"
+import Profile from "../../components/profile"
  const OrderListView = () =>{
     return <>
     <Head/>

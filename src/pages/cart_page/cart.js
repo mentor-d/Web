@@ -1,9 +1,9 @@
 import "../../css/main.css"
 import "./cart.css"
-import List from "../../Components/cartList"
+import List from "../../components/cartList"
 // import "../../Img/mypic.jpg 1.png"
-import Head from "../../Components/header/Head"
-import Profile from "../../Components/profile"
+import Head from "../../components/header/Head"
+import Profile from "../../components/profile"
 const Cart = () =>{
     return <>
 <div className="cart">

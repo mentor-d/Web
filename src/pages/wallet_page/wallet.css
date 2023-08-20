@@ -150,3 +150,168 @@
     font-size: 2rem;
   }
   
+  .mobile-view{
+    display: none;
+  }
+  
+
+  /* MOBILE PORTRAIT */
+  @media (max-width: 28.125em) {
+    .mobile-view{
+      display: block;
+      height: 100vh;
+      border: 1px solid yellow;
+      width: 100%;
+    }
+    .wallet-body{
+      display: none;
+      
+    }
+    .wallet-mobile-body{
+      padding: 0rem 1rem;
+    }
+    .wallet-mobile-head{
+      display: flex;
+      position: relative;
+      align-items: center ;
+      margin-top: 1rem;
+
+    }
+    .wallet-mobile-head .bx{
+      color: var(--color-primary-tint1);
+    }
+    .wallet-mobile-head h4{
+      position: absolute;
+      left: 10rem;
+    }
+    .wallet-mobile-head2{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      /* border: 1px solid red; */
+      margin-top: 1rem;
+    }
+    .wallet-mobile-head2-img{
+      height: 2.5rem;
+      width: 2.5rem;
+      border-radius:50% ;
+    }
+    .wallet-mobile-head2-img img{
+      border-radius: 50%;
+    }
+    .wallet-mobile-head3{
+      height: 5rem;
+      background-color: var(--color-primary-shade3);
+      border-radius: 5px;
+      display: flex;
+      justify-content: space-between;
+      padding: .5rem;
+      margin-top: 1.5rem;
+    }
+    .wallet-mobile-head3-withdrawable-balance{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      color: var(--color-white);
+      font-weight: 600;
+    }
+    .wallet-mobile-head3-withdrawable-balance h3{
+      font-size: 1.4rem;
+    }
+    .wallet-mobile-container-options{
+      display: flex;
+      column-gap: .9rem;
+      margin-top: 3rem;
+      /* justify-content:space-between; */
+    }
+    .wallet-mobile-option1{
+      display: flex;
+      flex-direction: column;
+      align-items:flex-start;
+      justify-content: center;
+      row-gap: 1rem;
+      /* border:1px solid red ; */
+      /* margin-right: 1rem; */
+      /* width: 10rem; */
+
+    }
+    .wallet-mobile-option1-content{
+      display: flex;
+      gap: 1rem;
+      align-items: center;
+    }
+    .wallet-mobile-option1-content .bx{
+       color: var(--color-white);
+    }
+    .wallet-mobile-option1-content-icon-fund{
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      height: 3rem;
+      width: 3rem;
+      border-radius: 50%;
+      background-color: var(--color-secondary);
+    }
+    .wallet-mobile-option1-content-icon-message{
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      height: 3rem;
+      width: 3rem;
+      border-radius: 50%;
+      background-color: var(--color-primary-shade3);
+    }
+    .wallet-mobile-option1-content-icon-order{
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      height: 3rem;
+      width: 3rem;
+      border-radius: 50%;
+      background-color: var(--color-tertiary);
+    }
+    .wallet-mobile-option1-content-icon-transfer{
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      height: 3rem;
+      width: 3rem;
+      border-radius: 50%;
+      background-color: blue;
+    }
+    .wallet-mobile-option1-content-icon-refer{
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      height: 3rem;
+      width: 3rem;
+      border-radius: 50%;
+      background-color: rgb(120, 36, 36);
+    }
+    .wallet-mobile-option1-content-icon-more{
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      height: 3rem;
+      width: 3rem;
+      border-radius: 50%;
+    }
+    .wallet-mobile-option1-content-icon-more .bx{
+      color: red;
+    }
+    .wallet-mobile-text{
+      margin-top: 4rem;
+    }
+    .wallet-mobile-refer{
+      height: 8rem;
+      padding:2rem 1rem;
+      color: var(--color-white);
+      border-radius: 5px;
+      background-color: var(--color-primary-shade3);
+      /* width: ; */
+    }
+  }
+  
+  

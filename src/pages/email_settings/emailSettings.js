@@ -1,8 +1,8 @@
 import "../../css/main.css"
-import Head from "../../Components/header/Head";
-import Profile from "../../Components/profile";
+import Head from "../../components/header/Head";
+import Profile from "../../components/profile";
 import "./emailSettings.css";
-import Btn from "../../Components/update_btn";
+import Btn from "../../components/update_btn";
 
 const Email = () =>{
 return <>

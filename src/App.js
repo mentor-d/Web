@@ -1,8 +1,8 @@
 import "./App.css"; 
 import LandingPage from "./pages/landing_page/LandingPage";
-// import Head from "./Components/Head";
+// import Head from "./components/Head";
 // import Login from "./components/Signin";
-// import Showcase from "./Components/Showcase"; 
+// import Showcase from "./components/Showcase"; 
 import {
   BrowserRouter,
   Routes,
@@ -19,9 +19,9 @@ import { CookiesProvider, useCookies } from "react-cookie";
 import ForgotPassword from "./pages/ForgotPassword_page/ForgotPassword";
 import EnterOtp from "./pages/enterOtp_page/EnterOtp"
 import ChangePassword from "./pages/changePassword_page/ChangePassword"
-import Farmproduce from "./Components/farmProduce";
-import Profile from "./Components/profile";
-import farmProductNav from "./Components/farmProductNav";
+import Farmproduce from "./components/farmProduce";
+import Profile from "./components/profile";
+import farmProductNav from "./components/farmProductNav";
 import Cart from "./pages/cart_page/cart";
 import Account from "./pages/account_page/account"; 
 import Email from "./pages/email_settings/emailSettings"
@@ -32,6 +32,7 @@ import Referral from "./pages/referral_page/referral";
 import Order from "./pages/OrderDetailView_page/orderDetail";
 import OrderListView from "./pages/orderListView_page/order_list_view";
 import SearchStore from "./pages/search_stores/search_stores";
+import StoreProductSearch from "./pages/store_product_search_page/store_product_search";
 const App = () => {
 
   Axios.defaults.baseURL = 'http://localhost:3500'
@@ -58,6 +59,7 @@ const App = () => {
         <Route path="/OrderDetail" element={<Order/>}/>
         <Route path="/OrderListView" element={<OrderListView/>}/>
         <Route path="/SearchStore" element={<SearchStore/>}/>
+        <Route path="/StoreProductSearch" element={<StoreProductSearch/>}/>
       </Routes>
       </CookiesProvider>
   );
