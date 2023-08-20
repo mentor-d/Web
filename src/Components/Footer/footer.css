@@ -1,0 +1,95 @@
+.footer{
+    background-color: #1A1A1A;
+    width: 100%;
+    height: 45vh;
+    display: flex;
+    padding: 2% 5%;
+    box-sizing: border-box;
+}
+.footer-quickLinks-container{
+    width: 30%;
+    height: 100%;
+}
+.footer-quickLinks{
+    display: flex;
+    width: 90%;
+    align-items: center;
+    margin-bottom: 5%;
+
+}
+.footer-quickLinks-img{
+    width: 1.3rem;
+    margin-right: 5%;
+}
+.footer-quickLinks-text{
+    font-size: 1.1rem;
+    color: white;
+}
+.footer-farmyDownload{
+    width: 35%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-farmyDownload-text{
+    color: white;
+    font-weight: 700;
+    font-size: 2rem;
+}
+.footer-farmyappDownload-img{
+    height: 4rem;
+    margin-top: 5%;
+}
+.footer-farmyInfos{
+    width: 35%;
+    height: 100%;
+}
+.footer-farmyInfos-contact{
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 3%;
+}
+.footer-farmyInfos-newTo{
+    display: flex;
+    color: white;
+    margin-bottom: 5%;
+}
+.footer-farmyInfos-newTo-Head{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.footer-farmyInfos-newTo-Head span{
+    font-size: 1.1rem;
+    color: white;
+}
+.footer-farmy-input{
+    width: 100%;
+}
+.footer-farmy-input input{
+    width: 60%;
+    height: 3rem;
+    border: none;
+    color:black;
+    font-weight: 700;
+    background-color: white;
+    padding: 2%;
+    box-sizing: border-box;
+}
+.footer-farmy-input button{
+    background-color: var(--primaryColor);
+    border: none;
+    color: white;
+    height: 3rem;
+    width: 20%;
+    margin-left: 3%;
+    font-size: 1.2rem;
+    font-weight: 700;
+    border-radius: 5px;
+    box-shadow: 1px 1px 0px 1px var(--greenTextColor);
+    transition: .3s;
+}
+.footer-farmy-input button:hover{
+    background-color: var(--hoverPrimaryColor);
+}
