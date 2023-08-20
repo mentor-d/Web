@@ -19,16 +19,9 @@ import { CookiesProvider, useCookies } from "react-cookie";
 import ForgotPassword from "./pages/ForgotPassword_page/ForgotPassword";
 import EnterOtp from "./pages/enterOtp_page/EnterOtp"
 import ChangePassword from "./pages/changePassword_page/ChangePassword"
-<<<<<<< HEAD
 import Farmproduce from "./components/farmProduce";
 import Profile from "./components/profile";
 import farmProductNav from "./components/farmProductNav";
-=======
-import Footer from "./components/Footer/footer"
-import Farmproduce from "./Components/farmProduce";
-import Profile from "./Components/profile";
-import farmProductNav from "./Components/farmProductNav";
->>>>>>> f4e527b030ad7089a1abbba8e9abdf7eecd178ca
 import Cart from "./pages/cart_page/cart";
 import Account from "./pages/account_page/account"; 
 import Email from "./pages/email_settings/emailSettings"
@@ -53,9 +46,6 @@ const App = () => {
         <Route path="/Forgot_Password" element={<ForgotPassword/>}/>
         <Route path="/EnterOtp" element={<EnterOtp/>}/>
         <Route path="/ChangePassword" element={<ChangePassword/>}/>
-<<<<<<< HEAD
-        <Route path="/Footer" element={<Footer/>}/>
-=======
         <Route path="/farmProduce" element={<Farmproduce/>}/>
         <Route path="/profile" element={<Profile/>}/>
         <Route path="/farmProductNav" element={<farmProductNav/>}/>
@@ -69,11 +59,7 @@ const App = () => {
         <Route path="/OrderDetail" element={<Order/>}/>
         <Route path="/OrderListView" element={<OrderListView/>}/>
         <Route path="/SearchStore" element={<SearchStore/>}/>
-<<<<<<< HEAD
         <Route path="/StoreProductSearch" element={<StoreProductSearch/>}/>
-=======
->>>>>>> 6e940160ef90c6a5160f9ac52de4b8acd6725e88
->>>>>>> f4e527b030ad7089a1abbba8e9abdf7eecd178ca
       </Routes>
       </CookiesProvider>
   );
