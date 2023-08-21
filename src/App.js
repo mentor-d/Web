@@ -33,6 +33,7 @@ import Order from "./pages/OrderDetailView_page/orderDetail";
 import OrderListView from "./pages/orderListView_page/order_list_view";
 import SearchStore from "./pages/search_stores/search_stores";
 import StoreProductSearch from "./pages/store_product_search_page/store_product_search";
+import FarmProductList from "./pages/farm_product_list_view_page/farm_product_list";
 const App = () => {
 
   Axios.defaults.baseURL = 'http://localhost:3500'
@@ -60,6 +61,7 @@ const App = () => {
         <Route path="/OrderListView" element={<OrderListView/>}/>
         <Route path="/SearchStore" element={<SearchStore/>}/>
         <Route path="/StoreProductSearch" element={<StoreProductSearch/>}/>
+        <Route path="farmproductlist" element={<FarmProductList/>}/>
       </Routes>
       </CookiesProvider>
   );
