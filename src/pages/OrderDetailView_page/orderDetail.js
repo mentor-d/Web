@@ -2,6 +2,8 @@ import Head from "../../components/header/Head";
 import Profile from "../../components/profile";
 import "../../css/main.css";
 import "./order_detail.css";
+import MobileHeader from "../../components/mobile_header"
+import MobileBottomNav from "../../components/mobile_bottom_nav"
 // import productImage from "../../Img/pexels-rajesh-tp-1633578 1.png"
 const Order = () =>{
     return<>
@@ -128,6 +130,90 @@ const Order = () =>{
                 </div>
             </div>
         </div>
+    </div>
+
+    <div className="mobile-view">
+        <MobileHeader/>
+
+        <div className="order-detail-mobile-body">
+            <div className="order-detail-mobile-reference">
+                <h3 className="order-detail-mobile-reference-id">#5568045678</h3>
+                <h3 className="order-detail-mobile-reference-date">
+                    27 May, 2020
+                </h3>
+                <h3 className="order-detail-mobile-reference-label">Delivered to</h3>
+                <h3>1623 Dugbe, ibadan, Nigeria</h3>
+                <h3 className="order-detail-mobile-reference-label">Payment Method</h3>
+                <h3>Debit Card</h3>
+                <h3 className="order-detail-mobile-reference-status">Delivered</h3>
+          </div>
+          <div className="order-detail-mobile-order-box">
+            <div className="order-detail-mobile-order-box-items">
+                <div className="order-detail-mobile-order-box-items-name">
+                    <h3 className="">Cow Meat</h3>
+                    <h3 className="order-detail-mobile-order-box-items-name-count   ">4 Packs</h3>
+                </div>
+                <h3 className="order-detail-mobile-order-box-items-price">
+                   <span> N</span>3,999.99
+                </h3>
+            </div>
+            <div className="order-detail-mobile-order-box-items">
+                <div className="order-detail-mobile-order-box-items-name">
+                    <h3 className="">Cow Meat</h3>
+                    <h3 className="order-detail-mobile-order-box-items-name-count   ">4 Packs</h3>
+                </div>
+                <h3 className="order-detail-mobile-order-box-items-price">
+                   <span> N</span>3,999.99
+                </h3>
+            </div>
+            <div className="order-detail-mobile-order-box-items">
+                <div className="order-detail-mobile-order-box-items-name">
+                    <h3 className="">Cow Meat</h3>
+                    <h3 className="order-detail-mobile-order-box-items-name-count   ">4 Packs</h3>
+                </div>
+                <h3 className="order-detail-mobile-order-box-items-price">
+                   <span> N</span>3,999.99
+                </h3>
+            </div>
+            <div className="order-detail-mobile-order-box-items">
+                <div className="order-detail-mobile-order-box-items-name">
+                    <h3 className="">Cow Meat</h3>
+                    <h3 className="order-detail-mobile-order-box-items-name-count   ">4 Packs</h3>
+                </div>
+                <h3 className="order-detail-mobile-order-box-items-price">
+                   <span> N</span>3,999.99
+                </h3>
+            </div>
+          </div>
+          <div className="order-detail-mobile-total">
+                <div className="order-detail-mobile-item-total">
+                    <h3 >Item Total</h3>
+                    <h4><span>N</span>11,999.97</h4>
+                </div>
+                <div className="order-detail-mobile-charges">
+                    <h3>Delivery Charges</h3>
+                    <h4><span>N</span>1000.00</h4>
+                </div>
+                <div className="order-detail-mobile-action">
+                    <h3>Paid</h3>
+                    <h4 ><span>N</span>12,999.97</h4>
+                </div>
+          </div>
+          <div className="order-detail-mobile-support">
+                <i class='bx bx-comment-dots' ></i>
+                <p>Need support?<br/>   
+                Chat with us
+                </p>
+                <p className="order-detail-mobile-support-link">chat</p>
+            </div> 
+            <div className="order-detail-mobile-reorder">
+               Re-order
+            </div> 
+          
+          
+         
+        </div>
+            <MobileBottomNav/>
     </div>
     </>
 }
