@@ -20,3 +20,15 @@
     border: 1px solid var(--color-primary-shade1);
     text-align:last baseline;
 }
+@media (max-width: 40.25em){
+    .mobile-store-search{
+        width: 25%;
+    }
+    .mobile-logistics-search{
+        width: 40%;
+
+    }
+    .mobile-farm-product-search{
+        width: 25%;
+    }
+}
