@@ -136,3 +136,150 @@
 .search-store-section-container-box-description-view-icon .bx{
     color: var(--color-white);
 }
+
+/* TABLET PORTRAIT2 */
+@media (max-width:40.25em){
+    .search-store-body{
+        display: none;
+    }
+    .mobile-view{
+        display: block;
+    }
+    .search-store-mobile-body{
+        background-color: var(--color-white);
+    }
+    .search-store-mobile-container{
+        display: flex;
+        flex-direction: column;
+        overflow-y: auto;
+        border: 1px solid var(--color-primary-shade2);
+        margin-top: 2rem;
+        height: 58vh;
+        border-radius: 10px 10px 0px 0px;
+        padding: 1.5rem 1.5rem 0rem ;
+
+    }
+    .search-store-mobile-container-box{
+        height: 7.5rem;
+        width: 100%;
+        border: 2px solid var(--color-tertiary-shade3);
+        border-radius: 10px;
+        position: relative;
+        display: flex;
+        /* justify-content: space-between; */
+        align-items: center;
+    }
+    .search-store-mobile-container-box-img{
+        height: 5rem;
+        width: 5rem;
+        border-radius:50% ;
+    }
+    .search-store-mobile-container-box-img img{
+        border-radius:50% ;
+        object-fit: cover;
+    }
+    .search-store-mobile-container-box-name h3{
+        color: var(--color-primary);
+    }
+    .search-store-mobile-container-box-name{
+        border: 1px solid red;
+        width: 53%;
+        height: 80%;
+    }
+    .search-store-mobile-container-box-name-description{
+        font-size: 10px;
+        width: 100%;
+        /* border: 1px solid red; */
+    }
+    .ratings3{
+        position: absolute;
+        height: 1rem;
+        width: 4rem;
+        top: 1rem;
+        right: .4rem;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    .ratings3 p{
+        font-weight: 600;
+    }
+    .search-store-mobile-container-box-miles{
+        position: absolute;
+        right: .4rem;
+        bottom:.8rem;
+    }
+}
+
+/* PHONE PORTRAit */
+@media (max-width:28.125em){
+    .search-store-body{
+        display: none;
+    }
+    .search-store-mobile-body{
+        background-color: var(--color-white);
+    }
+    .search-store-mobile-container{
+        display: flex;
+        flex-direction: column;
+        overflow-y: auto;
+        border: 1px solid var(--color-primary-shade2);
+        margin-top: 2rem;
+        height: 58vh;
+        border-radius: 10px 10px 0px 0px;
+        padding: 1.5rem 1.5rem 0rem ;
+
+    }
+    .search-store-mobile-container-box{
+        height: 7.5rem;
+        width: 100%;
+        border: 2px solid var(--color-tertiary-shade3);
+        border-radius: 10px;
+        position: relative;
+        display: flex;
+        /* justify-content: space-between; */
+        align-items: center;
+    }
+    .search-store-mobile-container-box-img{
+        height: 5rem;
+        width: 5rem;
+        border-radius:50% ;
+    }
+    .search-store-mobile-container-box-img img{
+        border-radius:50% ;
+        object-fit: cover;
+    }
+    .search-store-mobile-container-box-name h3{
+        color: var(--color-primary);
+    }
+    .search-store-mobile-container-box-name{
+        border: 1px solid red;
+        width: 53%;
+        height: 80%;
+    }
+    .search-store-mobile-container-box-name-description{
+        font-size: 10px;
+        width: 100%;
+        /* border: 1px solid red; */
+    }
+    .ratings3{
+        position: absolute;
+        height: 1rem;
+        width: 4rem;
+        top: 1rem;
+        right: .4rem;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    .ratings3 p{
+        font-weight: 600;
+    }
+    .search-store-mobile-container-box-miles{
+        position: absolute;
+        right: .4rem;
+        bottom:.8rem;
+    }
+}
