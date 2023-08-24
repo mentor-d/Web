@@ -34,6 +34,16 @@ const StoreProductSearch = () =>{
         </div>
       </div>
     </div>
+    <div className="store-categories">
+    <div><h4>Pepper</h4></div>
+    <div><h4>Meat</h4></div>
+    <div><h4>Fruits</h4></div>
+    <div><h4>Grains</h4></div>
+      <div><h4>Sea Food</h4></div>
+      <div><h4>Tubers</h4></div>
+      <div><h4>Canned</h4></div> 
+      
+    </div>
     <div className="store-container">
       <div className="store-container-box">
         <div className="store-container-box-img">
@@ -70,6 +80,15 @@ const StoreProductSearch = () =>{
               </div>
               <img className="ratings" src={Ratings}/>
             </div>
+            <div className="store-categories">
+    <div><h4>Pepper</h4></div>
+    <div><h4>Meat</h4></div>
+    <div><h4>Fruits</h4></div>
+    <div><h4>Grains</h4></div>
+      <div><h4>Sea Food</h4></div>
+      <div><h4>Tubers</h4></div>
+      <div><h4>Canned</h4></div> 
+    </div>
             <div className="store-product-search-mobile-container">
                 <div className="store-product-search-mobile-container-box">
                     <div className="store-product-search-mobile-container-box-img">

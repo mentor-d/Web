@@ -2,8 +2,8 @@ import "../../css/main.css"
 import "./search_stores.css"
 import Head from "../../components/header/Head"
 import StoreImg from "../../Img/Rectangle 375.png"
-import MobileBottomNav2 from "../../Components/mobile_bottom_nav2";
-import MobileSearchType from "../../Components/mobile_search_type";
+import MobileBottomNav2 from "../../components/mobile_bottom_nav2";
+import MobileSearchType from "../../components/mobile_search_type";
 import Logo from "../../Img/farmylogo.png"
 import Ratings from "../../Img/Full Four Stars.png"
 
