@@ -17,45 +17,45 @@ const Head = () => {
     
     return (
         <div className="header">
-            <a className="header-left">
+            <Link className="header-left" to={'/'}>
                 <img className="logo" src={Logo} alt="logo" />
-            </a>
+            </Link>
 
             <div className="header-right">
-                <a className="header-links" href="">
+                <Link className="header-links" to={''} >
                     <div className="links">
                          <img className="link-icon" src={store} alt="store" />
                     </div>
                     <div className="links-text">Search Store</div>
-                </a>
+                </Link>
 
-                <a className="header-links" href="">
+                <Link className="header-links" to={''} >
                     <div className="links">
                         <img className="link-icon" src={market} alt="market" />
                     </div>
                     <div className="links-text">Farmer's Market</div>
-                </a>
+                </Link>
 
-                <a className="header-links" href="">
+                <Link className="header-links" to={''} >
                     <div className="links">
                         <img className="link-icon" src={logistics} alt="logistics" />
                     </div>
                     <div className="links-text">Book Logistics</div>
-                </a>
+                </Link>
 
-                <a className="header-links" href="">
+                <Link className="header-links" to={'/Cart'} >
                     <div className="links">
                         <img className="link-icon" src={cart} alt="cart" />
                     </div>
                     <div className="links-text">My Cart</div>
-                </a>
+                </Link>
 
-                <a className="header-links" href="">
+                <Link className="header-links" to={''} >
                     <div className="links">
                         <img className="link-icon" src={notification} alt="notification" />
                     </div>
                     <div className="links-text">Notification</div>
-                </a>
+                </Link>
 
                 {/* <a className="header-links" href="/login">
                     <img className="links-img" src={myPic} alt="pfl"/>

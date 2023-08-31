@@ -1,0 +1,22 @@
+
+.farm-nav-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.8rem;
+    height: 98%;
+    width: 5%;
+    background-color: rgb(199, 194, 194);
+    /* border: 1px solid red; */
+  }
+  .farm-nav-left-icons {
+    display: flex;
+    flex-direction: column;
+    height: 19rem;
+    justify-content: space-between;
+  }
+  .farm-nav-left-icons .bx {
+    font-size: 1.5rem;
+    color: rgb(10, 148, 10);
+  }
+  

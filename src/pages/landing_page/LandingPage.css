@@ -6,22 +6,23 @@ a{
     text-decoration: none;
 }
 span{
-    color: #FFA400;
+    color: var(--secondaryColor);
 }
 .landpage{
     height: 100vh;
     width: 100%;
-    background-color: #EAFFE0;
     box-sizing: border-box;
+    background-color: var(--lightPrimaryColor);
 }
-.header{    
+/* .header{    
     height: 12vh;
     width: 100%;
     display: flex;
     align-items: center ;
     padding: 0 5%;
     box-sizing: border-box;
-}
+    border: 1px solid red;
+} */
 .logo{
     width: 7rem;
     height: 7rem;
@@ -35,7 +36,7 @@ span{
     margin:0 9%;
 }
 .links{
-    color: #0B3720;
+    color: var(--greenTextColor);
     font-size: .9rem;
     font-weight: 700;
     transition: .5s;
@@ -43,6 +44,10 @@ span{
 }
 .links:hover{
     border-bottom:2px solid #0B3720 ;
+    transform: translateY(-1px)
+}
+.links:active{
+    transform: translateY(1px);
 }
 .create{
     background-color: #FFA400;
@@ -66,13 +71,13 @@ span{
     position: relative;
 }
 .landpage-body-text{
-    font-size: 4rem;
-    font-weight: 700;
+    font-size: 5rem;
+    font-weight: 900;
     line-height: 4rem;
     text-align: center;
     margin-bottom: 4%;
     color: #0B3720;
-    text-shadow: 2px 1px 3px 1px rgba(0, 0, 0, 0.737);
+    text-shadow: 2px 2px 2px rgba(19, 38, 23, 0.495);
 }
 .landpage-body-downloadLinks{
     width: 30%;
@@ -85,7 +90,7 @@ span{
     align-items: center;
     justify-content: space-around;
     width: 40%;
-    height: 2.5rem;
+    height: 3rem;
     border-radius: 20px;
     padding: 0 3%;
     box-sizing: border-box;
@@ -111,6 +116,7 @@ span{
     position: absolute;
     left: 0;
     top: 30%;
+    height: 20rem;
 }
 
 .landpage-left-img2{
@@ -118,56 +124,117 @@ span{
     position: absolute;
     right: 0;
     top: 40%;
+    height: 20rem;
 }
-.choose{
+.landpage-options{
     width: 100%;
     height: 90vh;
     background-color: white;
-    padding: 5%;
+    padding: 3%;
     box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.choose-left{
-    width: 50%;
+.landpage-optionsLeft{
+    width: 40%;
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100%;
 }
-.choose-right{
-    width: 50%;
-}
-.choose-left-img{
-    background-image: url("../../Img/lady.png");
-    width: 90%;
-    height: 90%;
+.landpage-optionsLeft-img{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.128), rgba(0, 0, 0, 0.749)), url("../../Img/lady.png");
+    width: 70%;
+    height: 100%;
     background-position: center;
     background-size: cover;
+    border-radius: 5px;
+    position: relative;
+    transition: .5s;
 }
-.register-box{
+.landpage-optionsLeft-img:hover{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.32), rgba(0, 0, 0, 0.9)), url("../../Img/lady.png");
+}
+.landpage-optionsRight{
+    width: 35%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.landpage-optionsRight-top-img{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.034), rgba(0, 0, 0, 0.605)), url(../../Img/Rectangle\ 375.png);
+    width: 90%;
+    height: 47%;
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+    position: relative;
+    transition: .5s;
+}
+.landpage-optionsRight-top-img:hover{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.283), rgba(0, 0, 0, 0.817)), url(../../Img/Rectangle\ 375.png);
+}
+.landpage-optionsRight-bottom-img{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.712)), url(../../Img/Rectangle\ 376.png);
+    width: 90%;
+    height: 47%;
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+    position: relative;
+}
+.landpage-optionsRight-bottom-img:hover{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.342), rgba(0, 0, 0, 0.863)), url(../../Img/Rectangle\ 376.png);
+}
+.landpage-options-textContainer{
+    color: white;
+    width: 60%;
+    position: absolute;
+    right: .5rem;
+    bottom: 1rem;
+}
+.landpage-options-headText{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.landpage-options-subText{
+    font-size: .9rem;
+}
+.register-container{
     width: 100%;
-    height: 60vh;
+    height: 45vh;
     background-color: #FFA400;
     box-sizing: border-box;
-    padding: 5%;
+    padding: 2%;
     display: flex;
+    justify-content: center;
 }
 .register-left{
-    width: 50%;
+    width: 40%;
     height: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: right;
 }
 .register-right{
     width: 50%;
-    /* display: flex;
-    flex-direction: column; */
-    align-items: center;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
     padding:0 3% 0 5%;
     box-sizing: border-box;
+    justify-content: center;
 }
 .money-img{
-    width: 480px;
+    width:90%;
     height: 100%;
+    background-image: url(../../Img/money.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
 }
 .register-right-mainText{
     font-weight: 700;
@@ -181,11 +248,313 @@ span{
 .creat-acct{
     width: 25%;
     color: white;
-    background-color: #397846;
+    background-color: var(--primaryColor);
     border-radius: 7px;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: .3rem;
+    padding: 1rem;
     box-sizing: border-box;
+    border: none;
+    font-size: 1.1rem;
+    font-weight: 700;
+    box-shadow: 1px 1px 0px 1px var(--greenTextColor);
+    transition: .3s;
+}
+.creat-acct:hover{
+    background-color: var(--hoverPrimaryColor);
+    transform: translateY(-1.5px);
+}
+.creat-acct:active{
+    transform: translateY(1.5px);
+}
+.joinUs{
+    width: 100%;
+    height: 95vh;
+    background-color: white;
+    padding: 3%;
+    box-sizing: border-box;
+}
+.joinUs-top{
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.joinUs-topLeft{
+    width: 40%;
+}
+.joinUs-topRight{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.joinUs-img{
+    width: 25rem;
+    /* height: 90%; */
+}
+.joinUs-headText{
+    font-weight: 900;
+    font-size: 2rem;
+    color: var(--greenTextColor);
+    margin-bottom: 1%;
+}
+.joinUs-subText{
+    font-weight: 600;
+    margin-bottom: 2%;
+}
+.joinUs-btn{
+    background-color: var(--primaryColor);
+    border-radius: 5px;
+    padding:.7rem 1rem;
+    border: none;
+    color: white;
+    font-size: 1.1rem;
+    box-shadow: 1px 1px 0px 1px var(--greenTextColor);
+    transition: .5s;
+}
+.joinUs-btn:hover{
+    background-color: var(--hoverPrimaryColor);
+    transform: translateY(-1.5px);
+}
+.joinUs-btn:active{
+    transform: translateY(1.5px);
+}
+.joinUs-bottom{
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.joinUs-bottomRight{
+    width: 40%;
+}
+.joinUs-bottomLeft{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.landpage-get{
+    background-color: var(--secondaryColor);
+    width: 100%;
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.landpage-get-text{
+    font-size: 3rem;
+    color: white;
+    text-shadow: 2px 2px 2px rgba(19, 38, 23, 0.495);
+    font-weight: 900;
+    margin-bottom:2%;
+    text-align: center;
+}
+
+
+/* TABLET PORTRAIT */
+@media (max-width: 85em){
+    .landpage-body{
+        border: 2px solid black;
+    }
+    .landpage-body-downloadLinks{
+        width: 35%;
+    }
+    .download-links{
+        width: 46%;
+    }
+    .landpage-optionsLeft{
+        width: 50%;
+    }
+    .landpage-optionsLeft-img{
+        width: 80%;
+    }
+    .landpage-optionsRight{
+        width: 45%;
+    }
+    .landpage-options-textContainer{
+        width: 70%;
+    }
+    .register-left{
+        width: 50%;
+    }
+    .register-right{
+        padding:0 2% 0 4%;
+    }
+    .creat-acct{
+        width: 35%;
+    }   
+    .joinUs-topLeft{
+        width: 50%;
+    }
+    .joinUs-bottomRight{
+        width: 50%;
+    }
+}
+
+@media (max-width: 75em){
+    .landpage-body{
+        border: 2px solid red;
+    }
+    .landpage-body-downloadLinks{
+        width: 40%;
+    }
+    .landpage-options{
+        padding: 2%;
+    }
+    .landpage-optionsLeft-img{
+        width: 100%;
+    }
+    .landpage-optionsRight{
+        width: 50%;
+    }
+    .landpage-optionsRight-top-img{
+        width: 95%;
+        height: 49%;
+    }
+    .landpage-optionsRight-bottom-img{
+        width: 95%;
+        height: 49%;
+    }
+    .landpage-options-textContainer{
+        width: 80%;
+    }
+    .register-left{
+        width: 50%;
+    }
+    .register-right{
+        padding:0 1% 0 3%;
+    }
+    .register-right-mainText{
+        font-weight: 700;
+        font-size: 2rem;
+    }
+    .creat-acct{
+        width: 45%;
+    }   
+    .joinUs-topLeft{
+        width: 60%;
+    }
+    .joinUs-topRight{
+        width: 40%;
+    }
+    .joinUs-img{
+        width: 20rem;
+    }
+    .joinUs-headText{
+        font-weight: 900;
+        font-size: 1.7rem;
+    }
+    .joinUs-bottomRight{
+        width: 60%;
+        margin-left: 3%;
+    }
+    .joinUs-bottomLeft{
+        width: 35%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .landpage-get-text{
+        font-size: 2.5rem;
+    }
+}
+
+/* TABLET PORTRAIT */
+@media (max-width: 56.25em){
+    .landpage-body{
+        border: 2px solid blue;
+    }
+    .landpage-body-downloadLinks{
+        width: 45%;
+    }
+    .creat-acct{
+        width: 50%;
+    }
+    .joinUs-topLeft{
+        width: 55%;
+    }
+    .joinUs-topRight{
+        width: 45%;
+    }
+    .joinUs-bottomRight{
+        width: 50%;
+        margin-left: 2%;
+    }
+    .joinUs-bottomLeft{
+        width: 50%;
+    }
+    .landpage-body-text{
+        z-index: 2;
+    }
+    .landpage-left-img{
+        width: 10rem;
+        top: 25%;
+    }
+    .landpage-left-img2{
+        width: 10rem;
+        top: 45%;
+    }
+}
+
+/* TABLET PORTRAIT2 */
+@media (max-width: 50.25em) {
+    .landpage-body{
+        border: 2px solid yellow;
+    }
+    .landpage-left-img{
+        width: 9rem;
+        top: 20%;
+    }
+    .landpage-left-img2{
+        width: 9rem;
+        top: 48%;
+    }
+    .landpage-body-downloadLinks{
+        width: 55%;
+    }
+    .landpage-options{
+        flex-direction: column;
+        height: auto;
+    }
+    .landpage-optionsLeft{
+        width: 100%;
+        margin-bottom: 3%;
+    }
+    .landpage-optionsLeft-img{
+        width: 80%;
+        height: 20rem;
+    }
+    .landpage-optionsRight{
+        width: 100%;
+    }
+    .landpage-optionsRight-top-img{
+        width: 80%;
+        height: 20rem;
+        margin-bottom: 3%;
+    }
+    .landpage-optionsRight-bottom-img{
+        width: 80%;
+        height: 20rem;
+    }
+    .joinUs-img{
+        width: 18rem;
+    }
+}
+
+/* phone landscape */
+@media (max-width: 40.5em){
+    .landpage-body{
+        border: 2px solid green;
+    }
+}
+
+/* phone portrait  */
+@media (max-width: 28.125em){
+    .landpage-body{
+        border: 2px solid purple;
+    }
 }

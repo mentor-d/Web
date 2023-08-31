@@ -1,4 +1,7 @@
-import "../css/Farmproduce.css";
+
+import "../css/farmProduce.css";
+import "../css/main.css"
+
 import ProduceImg from "../Img/pepper.png";
 import Ratings from "../Img/Full Four Stars.png";
 const Farmproduce = () => {

@@ -1,0 +1,11 @@
+.account-body-form-btn {
+    font-weight: 600;
+    font-size: 20px;
+    height: 3rem;
+    border: none;
+    background-color: var( --color-primary-shade3);
+    border-radius: 10px;
+    color: white;
+    margin-top: 2rem;
+    width: 80%;
+  }
