@@ -1,0 +1,13 @@
+table{
+    width: 90%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+    /* border: 1px solid red; */
+}
+th{
+    text-align: left;
+}
+td{
+    font-weight: 600;
+    margin-bottom: 1rem;
+}

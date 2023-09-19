@@ -1,3 +1,13 @@
+
+import "./App.css";
+import Home from "./home_page/home_page";
+
+function App() {
+  return <>
+  
+  <Home/>
+  </>
+
 import "./App.css"; 
 import LandingPage from "./pages/landing_page/LandingPage";
 // import Head from "./components/Head";
