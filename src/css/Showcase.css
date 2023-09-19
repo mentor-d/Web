@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+span{
+    color: #FF9900;
+}
+.showcase-display{
+    padding: 3% 3% 17% 3%;
+    box-sizing: border-box;
+    width: 50%;
+    height: 100%;
+    background-color: #397846;
+    border-radius: 5px 0px 0px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.showcase-box-img{
+    width: 20rem;
+    height: 15rem;
+}
+.showcase-box-text{
+    color: white;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    font-weight: 700;
+    width: 85%;
+}
+.showcase-box-text-sub{
+    color: white;
+    font-size: .9rem;
+    width: 85%;
+    margin-top: 3%;
+
+}
+

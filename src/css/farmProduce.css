@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nexa", sans-serif;
+  }
+  img {
+    height: 100%;
+    width: 100%;
+  
+    object-fit: contain;
+    background-position: center;
+  }
+  .farm-list-container-box-item {
+    /* margin-top: 1rem; */
+    height: 15.5rem;
+    width: 12rem;
+    border-radius: 10px;
+    padding: 0.5rem 1rem;
+    background-color: var(--whiteTextColor);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  .farm-list-container-box-item-img {
+    height: 7rem;
+    width: 100%;
+    /* border: 1px solid red; */
+  }
+  .farm-list-container-box-item h5 {
+    margin-top: 0.5rem;
+  }
+  .ratings {
+    display: flex;
+    align-items: center;
+    /* border: 1px solid red; */
+    /* height: 1rem; */
+    width: 4rem;
+    margin: 0;
+  }
+  .ratings p {
+    font-size: 10px;
+    font-weight: 600;
+  }
+  .farm-list-container-box-item-price {
+    display: flex;
+    align-items: center;
+  }  .farm-list-container-box-item-price p {
+    font-size: 10px;
+    font-weight: 600;
+    margin-left: 0.2rem;
+  }
+  .farm-list-container-box-item-btn {
+    width: 96%;
+    height: 2rem;
+    background-color: rgb(30, 160, 30);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: last baseline;
+    padding: 0.5rem;
+    border-radius: 8px;
+    font-weight: 600;
+    margin: 0.2rem auto;
+  }
+  .farm-list-container-box-item-btn .bx {
+    font-size: 1.3rem;
+    font-weight: 500;
+  }
+  
+
+
+img {
+  height: 100%;
+  width: 100%;
+
+  object-fit: contain;
+  background-position: center;
+}
+.farm-list-container-box-item {
+  /* margin-top: 1rem; */
+  height: 15.5rem;
+  width: 12rem;
+  border-radius: 10px;  padding: 0.5rem 1rem;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.farm-list-container-box-item-img {
+  height: 7rem;
+  width: 100%;
+  /* border: 1px solid red; */
+}
+.farm-list-container-box-item h5 {
+  margin-top: 0.5rem;
+}
+.ratings {
+  display: flex;
+  align-items: center;
+  /* border: 1px solid red; */
+  /* height: 1rem; */
+  width: 4rem;
+  margin: 0;
+}
+.ratings p {
+  font-size: 10px;
+  font-weight: 600;
+}
+.farm-list-container-box-item-price {
+  display: flex;
+  align-items: center;
+}
+.farm-list-container-box-item-price p {
+  font-size: 10px;
+  font-weight: 600;
+  margin-left: 0.2rem;
+}
+.farm-list-container-box-item-btn {
+  width: 96%;
+  height: 2rem;
+  background-color: rgb(30, 160, 30);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: last baseline;
+  padding: 0.5rem;
+  border-radius: 8px;
+  font-weight: 600;
+  margin: 0.2rem auto;
+}
+.farm-list-container-box-item-btn .bx {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+

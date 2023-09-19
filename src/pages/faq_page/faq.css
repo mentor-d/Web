@@ -1,0 +1,103 @@
+.faq-body{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.faq {
+    height: 90vh;
+    width: 75%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.faq-container {
+    background-color: rgba(128, 128, 128, 0.562);
+    height: 40rem;
+    width: 42rem;
+    /* border: 1px solid red; */
+    padding: 2rem 4%;
+  }
+  .faq-container .bx {
+    color:var(--color-primary-shade3);
+  }
+  .faq-container-box {
+    /* border: 1px solid red; */
+    height: 90%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .faq-container-box h3:nth-child(2) {
+    margin-bottom: 1rem;
+  }
+  .faq-container-box-item {
+    font-weight: 600;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    padding: 0.2rem;
+    width: 70%;
+    background-color: var(--color-white);
+    margin-top: 1rem;
+  }
+  .faq-container-box-item .bx {
+    margin-right: 1rem;
+  }
+  @media (max-width: 28.125em){
+    .faq-body{
+      display: none;
+      
+    }
+    .faq-mobile-body{
+      padding: 3rem 1rem 0rem;
+    }
+    .faq-mobile-body .bx{
+      color: var(--color-primary-tint2);
+    }
+    .faq-mobile-head{
+      display: flex;
+      align-items: center;
+      position: relative;
+    }
+    .faq-mobile-head h3{
+      position: absolute;
+      right: 9rem;
+    }
+    .faq-mobile-title{
+      margin: auto;
+      width: 75%;
+    }
+    .faq-mobile-box {
+      /* border: 1px solid red; */
+      height: 90%;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .faq-mobile-box h3:nth-child(2) {
+      margin-bottom: 1rem;
+    }
+    .faq-mobile-box-item {
+      font-weight: 600;
+      height: 2.5rem;
+      display: flex;
+      align-items: center;
+      padding: 0.1rem;
+      width: 95%;
+      background-color: var(--color-white);
+      margin-top: 1rem;
+    }
+    .faq-mobile-box-item .bx {
+      margin-right: .6rem;
+    }
+    .faq-mobile-box-item p{
+      font-size:13px;
+    }
+  }
+  
+  

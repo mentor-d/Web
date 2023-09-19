@@ -1,0 +1,26 @@
+
+.mobile-header{
+    height: 10vh;
+    width: 100%;
+    background-color: var(--color-white);
+    display:flex;
+    justify-content: space-between;
+    padding:1rem .5rem;
+    align-items:  first baseline;
+  }
+  .mobile-header-logo{
+    width: 100vw;
+  }
+ 
+  .mobile-header-notification{
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* align-self: flex-end; */
+  }
+  .mobile-header-notification .bx{
+    color: var(--color-tertiary);
+    font-size: 1.5rem;
+  }
