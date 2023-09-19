@@ -1,0 +1,16 @@
+.card-body{
+    height: 15rem;
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    /* border: 1px solid red; */
+    /* background-position: ; */
+}
+.card-body img{
+object-fit: cover;
+object-position: center;
+border-radius: 10px;
+
+height: 100%;
+width: 100%;
+}
